@@ -1,0 +1,16 @@
+{
+  "id": "ai-agent-impact",
+  "name": "AI Agents & Society",
+  "display_names": {"zh": "AI Agent 与社会影响"},
+  "match": "match.md",
+  "analysis": "analysis.md",
+  "enrichment": {
+    "prompt": "enrichment.md",
+    "blocks": [
+      {"id": "summary", "type": "section", "tools": [], "primary": true},
+      {"id": "background", "type": "section", "tools": ["web_search"]},
+      {"id": "social_impact", "type": "section", "tools": ["web_search"], "optional": true},
+      {"id": "community_discussion", "type": "section", "tools": [], "optional": true}
+    ]
+  }
+}
