@@ -19,7 +19,7 @@
     "default_profile": "ai-agent-impact",
     "profile_settings": {
       "ai-agent-impact": {
-        "threshold": 8.0,
+        "threshold": 7.5,
         "topic_dedup": true
       },
       "tech-news": {
@@ -253,7 +253,7 @@
     },
     "google_news": {
       "enabled": true,
-      "query": "AI agents people individuals labor education health privacy safety mental health relationships governance",
+    "query": "\"AI agents\" OR \"AI agent\" OR \"autonomous agents\" OR \"agentic AI\" impact people labor privacy safety education health governance",
       "language": "en",
       "country": "US",
       "ceid": null,
