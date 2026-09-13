@@ -3,7 +3,7 @@ name: Daily Horizon AI Agent Human Impact Briefing
 on:
   schedule:
     # 00:00 UTC = 08:00 Asia/Shanghai. GitHub may delay scheduled jobs slightly.
-    - cron: '0 0 * * *'
+    - cron: '27 0 * * *'
   workflow_dispatch:
 
 permissions:
