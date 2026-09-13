@@ -58,14 +58,14 @@
       {
         "type": "user_events",
         "username": "torvalds",
-        "enabled": false,
+        "enabled": true,
         "profile": "tech-news"
       },
       {
         "type": "repo_releases",
         "owner": "astral-sh",
         "repo": "uv",
-        "enabled": false,
+        "enabled": true,
         "profile": "tech-news"
       }
     ],
@@ -86,7 +86,7 @@
       {
         "name": "vLLM Blog",
         "url": "https://vllm.ai/blog/rss.xml",
-        "enabled": false,
+        "enabled": true,
         "category": "llm-inference",
         "profile": "tech-blog",
         "content_extractor": "trafilatura"
@@ -94,7 +94,7 @@
       {
         "name": "Sean Goedecke",
         "url": "https://www.seangoedecke.com/rss.xml",
-        "enabled": false,
+        "enabled": true,
         "category": "software-engineering",
         "profile": "tech-blog",
         "content_extractor": "trafilatura"
@@ -102,7 +102,7 @@
       {
         "name": "CNBC Finance",
         "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
-        "enabled": false,
+        "enabled": true,
         "category": "finance",
         "profile": "finance-news",
         "content_extractor": "trafilatura"
@@ -110,7 +110,7 @@
       {
         "name": "NVIDIA CUDA Technical Blog",
         "url": "https://developer.nvidia.com/blog/tag/cuda/feed/",
-        "enabled": false,
+        "enabled": true,
         "category": "cuda",
         "profile": "tech-blog",
         "content_extractor": "trafilatura"
@@ -118,7 +118,7 @@
       {
         "name": "LWN.net (subscriber full-text)",
         "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
-        "enabled": false,
+        "enabled": true,
         "category": "linux",
         "profile": "tech-news"
       },
@@ -171,7 +171,7 @@
       "users": [
         {
           "username": "iamthatis",
-          "enabled": false,
+          "enabled": true,
           "sort": "new",
           "fetch_limit": 10,
           "profile": "tech-news"
@@ -180,7 +180,7 @@
       "fetch_comments": 5
     },
     "twitter": {
-      "enabled": false,
+      "enabled": true,
       "users": [
         "karpathy",
         "ylecun"
@@ -193,7 +193,7 @@
       "profile": "tech-news"
     },
     "openbb": {
-      "enabled": false,
+      "enabled": true,
       "fetch_filings": false,
       "filings_provider": "sec",
       "watchlists": [
@@ -217,7 +217,7 @@
       ]
     },
     "ossinsight": {
-      "enabled": false,
+      "enabled": true,
       "period": "past_24_hours",
       "languages": [
         "All",
