@@ -19,7 +19,7 @@
     "default_profile": "ai-agent-impact",
     "profile_settings": {
       "ai-agent-impact": {
-        "threshold": 7.5,
+        "threshold": 6,
         "topic_dedup": true
       },
       "tech-news": {
@@ -31,7 +31,7 @@
         "topic_dedup": true
       },
       "finance-news": {
-        "threshold": 9.0,
+        "threshold": 9,
         "topic_dedup": true
       }
     }
@@ -71,8 +71,8 @@
     ],
     "hackernews": {
       "enabled": true,
-      "fetch_top_stories": 20,
-      "min_score": 150,
+      "fetch_top_stories": 30,
+      "min_score": 80,
       "profile": "ai-agent-impact"
     },
     "rss": [
@@ -163,8 +163,8 @@
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 15,
-          "min_score": 100,
+          "fetch_limit": 25,
+          "min_score": 50,
           "profile": "ai-agent-impact"
         }
       ],
@@ -253,7 +253,7 @@
     },
     "google_news": {
       "enabled": true,
-    "query": "\"AI agents\" OR \"AI agent\" OR \"autonomous agents\" OR \"agentic AI\" impact people labor privacy safety education health governance",
+      "query": "\"AI agents\" OR \"AI agent\" OR \"autonomous agents\" OR \"agentic AI\" impact people labor privacy safety education health governance",
       "language": "en",
       "country": "US",
       "ceid": null,
